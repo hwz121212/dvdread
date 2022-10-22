@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{41140ba9-e80b-48af-b122-6d11a66293ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5f5c2caf-d97f-42d4-ae47-6155b63ba9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dvdread">
+      <UniqueIdentifier>{e3559b34-9bb6-4ef2-a15f-1d7cb8b882bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sys">
+      <UniqueIdentifier>{71b45617-6ab8-4dd5-abf0-85675b27396c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bswap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvd_input.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\md5.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\bitreader.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\dvd_reader.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\dvd_udf.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\ifo_print.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\ifo_read.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\ifo_types.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\nav_print.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\nav_read.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdread\nav_types.h">
+      <Filter>include\dvdread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dlfcn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\os_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_cs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sys\time.h">
+      <Filter>include\sys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bitreader.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dvd_input.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dvd_reader.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dvd_udf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ifo_print.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ifo_read.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nav_print.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nav_read.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{8B1F3820-3E09-4275-9D8A-C731305D0A66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdvdread", "thirdparty\dvdread-6.1.3\libdvdread.vcxproj", "{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{62D61D3E-E4EE-4641-8A07-C152E87FB9A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{6E6008C7-04EE-497F-A6CB-5DD5F682ACE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dvdread", "thirdparty\dvdread-6.1.3\dvdread.vcxproj", "{D0E2E418-8B75-483B-B0EC-936173E59F50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Debug|x64.ActiveCfg = Debug|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Debug|x64.Build.0 = Debug|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Release|x64.ActiveCfg = Release|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Release|x64.Build.0 = Release|x64
+		{D0E2E418-8B75-483B-B0EC-936173E59F50}.Debug|x64.ActiveCfg = Debug|x64
+		{D0E2E418-8B75-483B-B0EC-936173E59F50}.Debug|x64.Build.0 = Debug|x64
+		{D0E2E418-8B75-483B-B0EC-936173E59F50}.Release|x64.ActiveCfg = Release|x64
+		{D0E2E418-8B75-483B-B0EC-936173E59F50}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {62D61D3E-E4EE-4641-8A07-C152E87FB9A6}
+		{62D61D3E-E4EE-4641-8A07-C152E87FB9A6} = {8B1F3820-3E09-4275-9D8A-C731305D0A66}
+		{6E6008C7-04EE-497F-A6CB-5DD5F682ACE7} = {8B1F3820-3E09-4275-9D8A-C731305D0A66}
+		{D0E2E418-8B75-483B-B0EC-936173E59F50} = {6E6008C7-04EE-497F-A6CB-5DD5F682ACE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
+	EndGlobalSection
+EndGlobal
